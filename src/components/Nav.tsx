@@ -28,12 +28,12 @@ const NavEducation = () => {
 
 const Navbar = () => {
     return (
-        <div className='Nav-Bar'>
+        <nav className='Nav-Bar'>
             <NavHome />
             <NavProjects />
             <NavExperience />
             <NavEducation />
-        </div>
+        </nav>
     )
 }
 

@@ -13,11 +13,14 @@
   color: white;
   font-family: 'Quicksand';
   font-size: 1.4em;
+  overflow: hidden;
 }
 
 .Home {
   width: 50vw;
   text-align: center;
+  display: flex;
+  height: 100%;
   margin: auto;
 }
 
@@ -47,9 +50,6 @@
   width: 50vw;
   height: 30px;
   text-align: center;
-  margin: auto;
-  overflow: hidden;
-  z-index: 9999;
 }  
 
 .Nav-Item {
@@ -61,14 +61,15 @@
   display: flex;
   flex-direction: row;
   text-align: left;
-  position: absolute;
   margin-top: 30px;
 }
 
 .Content-Title {
   width: 25vw;
-  position: fixed;
-  top: 50px;
+}
+
+.Content-About {
+  overflow-y: auto;
 }
 
 li {
