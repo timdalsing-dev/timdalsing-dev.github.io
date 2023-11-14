@@ -42,6 +42,11 @@
   font-size: 2em;
 }  
 
+.Section-Subtitle {
+  font-size: 1.2em;
+  font-style: italic;
+}  
+
 .Nav-Bar {
   display: flex;
   flex-direction: row;
@@ -96,12 +101,17 @@
 .Education-Title {
   /* margin-top: 1em; */
 }
+
 p {
   color: rgb(190, 189, 189);
 }
 
-li {
+.List-Item {
   margin-bottom: 1.5em;
+  color: rgb(190, 189, 189);
+}
+
+li {
   color: rgb(190, 189, 189);
 }
 
