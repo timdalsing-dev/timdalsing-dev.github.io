@@ -6,7 +6,7 @@ import Nav from '../components/Nav';
 
 const Home = () => {
     return (
-        <div className='Home'>
+        <div className='Home' id='home'>
             <Nav />
             <Content />
         </div>

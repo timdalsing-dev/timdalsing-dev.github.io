@@ -7,12 +7,12 @@
  
 .App {
   text-align: center;
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(32, 32, 48);
   width: 100vw;
   height: 100vh;
   color: white;
   font-family: 'Quicksand';
-  font-size: 1.4em;
+  font-size: 1.1em;
   overflow: hidden;
 }
 
@@ -25,31 +25,38 @@
 }
 
 .Title {
-  width: 25vh;
+  width: 30vh;
 }
 
 .Title-Name {
   font-size: 3em;
+  margin-bottom: 10vh;
 }
 
 .Subtitle {
   font-size: 2em;
-  margin-top: 1.5em;
   margin-bottom: 1.5em;
+}  
+
+.Section-Title {
+  font-size: 2em;
 }  
 
 .Nav-Bar {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  height: 10vh;
+  vertical-align: middle;
 }  
 
 .Nav {
   position: fixed;
   top: 0;
   width: 50vw;
-  height: 30px;
+  height: 10vh;
   text-align: center;
+  margin-top: 1em;
 }  
 
 .Nav-Item {
@@ -61,18 +68,63 @@
   display: flex;
   flex-direction: row;
   text-align: left;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .Content-Title {
-  width: 25vw;
+  width: 30vw;
+  margin-top: 15vh;
 }
 
 .Content-About {
   overflow-y: auto;
+  margin-top: 15vh;
+  margin-left: 5em;
+  padding-right: 5em;
+}
+
+.Experience-Title {
+  font-size: 1.6em;
+  margin-top: 1.0em;
+}
+
+.Experience-Title-2 {
+  font-size: 1.3em;
+  margin-top: 1.0em;
+}
+
+.Education-Title {
+  /* margin-top: 1em; */
+}
+p {
+  color: rgb(190, 189, 189);
 }
 
 li {
-  margin-top: 1.2em;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+  color: rgb(190, 189, 189);
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }

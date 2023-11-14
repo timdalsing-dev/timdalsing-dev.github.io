@@ -4,7 +4,7 @@ import '../App.css';
 const Projects = () => {
     return (
         <div>
-            <div className='Subtitle'>
+            <div className='Section-Title' id='projects'>
                 Key Projects and Engagements
             </div>
             <div>
