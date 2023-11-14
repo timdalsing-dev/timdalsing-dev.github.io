@@ -12,7 +12,7 @@ const Experience = () => {
                     6/15 to Present: VMware/Pivotal - Senior Consultant
                 </div>
 
-                <p className='Para'>
+                <p>
                     My role is to help customers with application and data modernization.  Usually that means pairing with the customer’s developers to actually write code (enablement), sometimes it means to define a path to success (the journey), and occasionally it means to recommend best practices  for design, development, and deployment (path-to-prod).  Since the mandate can be very broad, topics covered nearly always go beyond just the code to include automation using CI/CD, tooling to streamline and simplify the process, SRE, etc.
                 </p>
 

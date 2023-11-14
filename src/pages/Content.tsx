@@ -5,6 +5,7 @@ import Projects from './Projects';
 import Title from './Title';
 import Experience from './Experience';
 import Education from './Education';
+import Portfolio from './Portfolio';
 
 const Content = () => {
     return (
@@ -15,6 +16,7 @@ const Content = () => {
             <div className='Content-About'>
                 <Projects />
                 <Experience />
+                <Portfolio />
                 <Education />
             </div>
         </div>
