@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8ce9755.css",
+    "main.js": "/static/js/main.c20f7828.js",
+    "static/js/787.b2b2cf5b.chunk.js": "/static/js/787.b2b2cf5b.chunk.js",
+    "static/media/Quicksand-VariableFont_wght.ttf": "/static/media/Quicksand-VariableFont_wght.b964ff93d9cb23e7f4c0.ttf",
+    "index.html": "/index.html",
+    "main.d8ce9755.css.map": "/static/css/main.d8ce9755.css.map",
+    "main.c20f7828.js.map": "/static/js/main.c20f7828.js.map",
+    "787.b2b2cf5b.chunk.js.map": "/static/js/787.b2b2cf5b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8ce9755.css",
+    "static/js/main.c20f7828.js"
+  ]
+}
