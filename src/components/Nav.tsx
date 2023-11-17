@@ -1,6 +1,12 @@
 import React from 'react';
 import '../App.css';
 
+const NavCompentencies = () => {
+    return (
+        <div className='Nav-Item'><a href='#compentencies'>Compentencies</a></div>
+    )
+}
+
 const NavProjects = () => {
     return (
         <div className='Nav-Item'><a href='#projects'>Projects</a></div>
@@ -22,6 +28,7 @@ const NavEducation = () => {
 const Navbar = () => {
     return (
         <nav className='Nav-Bar'>
+            <NavCompentencies />
             <NavProjects />
             <NavExperience />
             <NavEducation />

@@ -13,11 +13,11 @@ const Experience = () => {
                 </div>
 
                 <p>
-                    My role is to help customers with application and data modernization.  Usually that means pairing with the customer’s developers to actually write code (enablement), sometimes it means to define a path to success (the journey), and occasionally it means to recommend best practices  for design, development, and deployment (path-to-prod).  Since the mandate can be very broad, topics covered nearly always go beyond just the code to include automation using CI/CD, tooling to streamline and simplify the process, SRE, etc.
+                    My role is to help customers with application and data modernization.  Usually that means pairing with the customer's developers to actually write code (enablement), sometimes it means to define a path to success (the journey), and occasionally it means to recommend best practices  for design, development, and deployment (path-to-prod).  Since the mandate can be very broad, topics covered nearly always go beyond just the code to include automation using CI/CD, tooling to streamline and simplify the process, SRE, etc.
                 </p>
 
                 <p>
-                    Since VMware/Pivotal’s customers are extremely diverse, the types of engagements and the technologies involved are very broad.  Customers include:
+                    Since VMware/Pivotal's customers are extremely diverse, the types of engagements and the technologies involved are very broad.  Customers include:
                 </p>
 
                 <ul>
@@ -41,6 +41,10 @@ const Experience = () => {
                     <li>Modernization of mainframe and COBOL applications</li>
                 </ul>
 
+                <p>
+                    Key projects and engagements:
+                </p>
+
                 <ul>
                     <li className='List-Item'>Designed and developed a prototype that demonstrates an R-like language for Gemfire. The models are trained against in-memory data. Predictions can be made via ad-hoc and dynamic methods. All standard machine learning models are supported, such as Support Vector Machine, Random Forest, Naive Bayes, and Gaussian Process. Fast Fourier Transforms are also supported.</li>
                     <li className='List-Item'>Defined architecture and developed a prototype for a system that stores credit card account information for fast access using Gemfire. Spring Boot microservices were used to build REST APIs. HBase was used as a backing store for long term storage. Due to the use of in-memory data in Gemfire, the response times were sub-10ms response times at very high volumes.</li>
@@ -53,7 +57,7 @@ const Experience = () => {
                 </div>
 
                 <p>
-                    My role was to provide technical assistance to the sales staff for Rocana's logs and metrics analytics product.  Rocana was a startup that was purchased by Splunk.  Essentially Rocana was building a big data version of Splunk.  The data was stored in Hadoop and used Impala as the query tool for metrics and Solr for log searching.  Kafka was extensively for metrics and log collection.  The product supported ingest rates of up to 100k events/metrics per second.
+                    My role was to provide technical assistance to the sales staff for Rocana's logs and metrics analytics product.  Rocana was a startup that was purchased by Splunk.  Essentially Rocana was building a big data version of Splunk.  The data was stored in Hadoop and used Impala as the query tool for metrics and Solr for log searching.  Kafka was used extensively for metrics and log collection.  The product supported ingest rates of up to 100k events/metrics per second.
                 </p>
 
                 <div className='Experience-Title-2'>
@@ -88,7 +92,7 @@ const Experience = () => {
                 </div>
 
                 <ul>
-                    <li className='List-Item'>Architect for key J2EE module in Ameriprise’s suite of applications provided to financial advisers. This module generates investment recommendations for the financial adviser using inputs from the customer, which is the foundation for the entire system. Also created a prototype of the module for the offshore development team.</li>
+                    <li className='List-Item'>Architect for key J2EE module in Ameriprise's suite of applications provided to financial advisers. This module generates investment recommendations for the financial adviser using inputs from the customer, which is the foundation for the entire system. Also created a prototype of the module for the offshore development team.</li>
                     <li className='List-Item'>Enterprise architect for a major business process redesign that moves data entry and some financial analysis to an offshore facility. This is provided as a service to the advisers, who previously performed this work themselves.</li>
                     <li className='List-Item'>Architected, designed, and coded a critical automation utility that eliminates a manual process. This application is written in Java using Eclipse. It also uses MQ to query a mainframe for financial data.</li>
                 </ul>

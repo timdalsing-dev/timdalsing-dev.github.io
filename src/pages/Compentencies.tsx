@@ -3,9 +3,9 @@ import '../App.css';
 
 const Compentencies = () => {
     return (
-        <div>
+        <div id='compentencies'>
             <div className='Section-Title'>Compentencies</div>
-            <div className='Section-Subtitle'>Extensive Experience</div>
+            <div className='Section-Subtitle' style={{marginTop: '10px'}}>Extensive Experience</div>
             <table>
                 <tr>
                     <td style={{ width: '50%' }}>
