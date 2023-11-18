@@ -12,7 +12,7 @@ const Title = () => {
                 <p>
                     I started out as a semiconductor engineer, but switched to software.  I wrote C and C++ for many years before discovering Java.
                 </p>
-                <p><a href='https://timdalsing.dev'>https://timdalsing.dev</a></p>
+                <p><a href='https://linkedin.com/in/tdalsing'>https://linkedin.com/in/tdalsing</a></p>
                 <p><a href='mailto:tim@timdalsing.dev'>tim@timdalsing.dev</a></p>
             </div>
         </div>
